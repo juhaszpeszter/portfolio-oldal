@@ -231,7 +231,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background-image: url(/assets/contact-box-bg.png);
+  background-image: url(/assets/contact-box-bg-v2.png);
   background-size: contain;
   border-radius: 5px;
 }
@@ -319,6 +319,10 @@ img {
     padding: 10px 0;
     display: flex;
     justify-content: center;
+  }
+
+  .nav-item {
+    height: 100%;
   }
 
   .banner {
@@ -414,6 +418,7 @@ img {
   .form-box2 {
     flex-direction: row;
     gap: 3rem;
+    padding: 0;
   }
 
   .form-input__text-area {
@@ -425,10 +430,17 @@ img {
   }
 
   .icon-img {
-    width: 30px;
+    width: 40px;
   }
 
   .copy {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .form-box1 {
+    flex-direction: row;
+    gap: 3rem;
   }
 }
