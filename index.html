@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap" rel="stylesheet" />
+    <title>Portfólió</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="hamburger-menu">
+        <input type="checkbox" name="hamburger" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-btn">
+          <span class="hamburger-lines"></span>
+        </label>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="/index.html" class="nav-item__link">Főoldal</a></li>
+          <li class="nav-item"><a href="/index.html#about" class="nav-item__link">Rólam</a></li>
+          <li class="nav-item"><a href="/index.html#portfolio" class="nav-item__link">Portfólió</a></li>
+          <li class="nav-item"><a href="/index.html#contact" class="nav-item__link">Kapcsolat</a></li>
+          <li class="nav-item"><a href="/index-en.html" class="nav-item__link">EN</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner" id="banner">
+        <h1>Juhász Eszter</h1>
+        <h3>Full-stack Webfejlesztő</h3>
+        <button class="btn-contact" type="submit">Küldj üzenetet!</button>
+      </section>
+      <section class="about-container" id="about">
+        <img src="/assets/about-pic.png" alt="coming soon i promise" />
+        <h2>Rólam</h2>
+        <p class="about-p">
+          Juhász Eszter vagyok, szenvedélyes full-stack webfejlesztő, akit a digitális élmények iránti szeretet hajt.
+          Miközben elindulok karrierem izgalmas útján, minden projektembe a kreativitás és a technikai szakértelem
+          keverékét viszem bele. Portfólióm mutatja, hogy elkötelezett vagyok az innovatív, felhasználó-központú webes
+          megoldások építése iránt, amelyek harmonizálják a formát és a funkciót. Csatlakozzon hozzám, ahogy sorról
+          sorra kódot szövök magával ragadó digitális tájképekbe.
+        </p>
+      </section>
+      <section class="skills">
+        <h2 class="skills-heading">Programozási nyelvek és eszközök</h2>
+        <div class="skills-container">
+          <img class="skills-logo" alt="html5 logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+          <img class="skills-logo" alt="css3 logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+        </div>
+      </section>
+      <section class="portfolio-container" id="portfolio">
+        <h2>Munkáim</h2>
+        <div class="portfolio-box">
+          <div class="portfolio-item">portfolio munka 1</div>
+          <div class="portfolio-item">portfolio munka 2</div>
+          <div class="portfolio-item">portfolio munka 3</div>
+          <div class="portfolio-item">portfolio munka 4</div>
+          <div class="portfolio-item">portfolio munka 5</div>
+          <div class="portfolio-item">portfolio munka 6</div>
+        </div>
+      </section>
+      <section class="contact-container" id="contact">
+        <h2>Kapcsolat</h2>
+        <form action="https://formspree.io/f/xnqeqkpw" method="post" class="form">
+          <input type="text" name="name" class="form-input" placeholder="név" />
+          <input type="email" name="email" class="form-input" placeholder="e-mail cím" />
+          <textarea
+            name="msg"
+            id="msg"
+            cols="30"
+            rows="10"
+            class="form-input__text-area"
+            placeholder="üzenet"
+          ></textarea>
+          <input type="button" id="send" class="btn-form" value="Beküldés" />
+        </form>
+      </section>
+    </main>
+    <footer class="socialmedia">
+      <ul class="icons">
+        <li>
+          <a href="#">
+            <img class="icon-img" alt="github logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="icon-img" alt="linked in logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+          </a>
+        </li>
+      </ul>
+      <p class="copy">&copy; 2024 Juhász Eszter</p>
+    </footer>
+  </body>
+</html>
