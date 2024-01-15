@@ -47,15 +47,11 @@ img {
   width: 200px;
 }
 
-
-
 /*---HEADER MENÜ---*/
-
 
 #menu-toggle {
   opacity: 0;
 }
-
 
 #menu-toggle:checked ~ .nav-menu {
   visibility: visible;
@@ -170,6 +166,8 @@ img {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-container {
@@ -262,8 +260,6 @@ img {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-
-
 /*---FOOTER---*/
 
 .socialmedia {
@@ -275,12 +271,11 @@ img {
   justify-content: center;
 }
 
-
 .icons {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  padding: 1rem ;
+  padding: 1rem;
 }
 
 .icon-img {
@@ -292,3 +287,44 @@ img {
   font-size: 16px;
   padding: 1rem;
 }
+
+
+
+/*---MEDIA QUERY ---*/
+
+@media screen and (min-width: 576px) {
+  .hamburger-lines {
+    visibility: hidden;
+  }
+
+  .nav-menu {
+    visibility: visible;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 3.5rem;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner {
+    height: 350px;
+  }
+
+  .about-container{
+    padding: 4rem;
+  }
+
+ p {
+  font-size: 1.2rem;
+ }
+
+.portfolio-box {
+  display: grid;
+  grid-template-columns: auto auto;
+ }
+}
+
+
+
