@@ -35,7 +35,7 @@
       </section>
       <section class="about-container" id="about">
         <img src="/assets/about-pic.png" alt="coming soon i promise" />
-        <h2>Rólam</h2>
+
         <p class="about-p">
           Juhász Eszter vagyok, szenvedélyes full-stack webfejlesztő, akit a digitális élmények iránti szeretet hajt.
           Miközben elindulok karrierem izgalmas útján, minden projektembe a kreativitás és a technikai szakértelem
@@ -47,8 +47,16 @@
       <section class="skills">
         <h2 class="skills-heading">Programozási nyelvek és eszközök</h2>
         <div class="skills-container">
-          <img class="skills-logo" alt="html5 logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-          <img class="skills-logo" alt="css3 logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+          <img
+            class="skills-logo"
+            alt="html5 logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          />
+          <img
+            class="skills-logo"
+            alt="css3 logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          />
         </div>
       </section>
       <section class="portfolio-container" id="portfolio">
@@ -65,17 +73,21 @@
       <section class="contact-container" id="contact">
         <h2>Kapcsolat</h2>
         <form action="https://formspree.io/f/xnqeqkpw" method="post" class="form">
-          <input type="text" name="name" class="form-input" placeholder="név" />
-          <input type="email" name="email" class="form-input" placeholder="e-mail cím" />
-          <textarea
-            name="msg"
-            id="msg"
-            cols="30"
-            rows="10"
-            class="form-input__text-area"
-            placeholder="üzenet"
-          ></textarea>
-          <input type="button" id="send" class="btn-form" value="Beküldés" />
+          <div class="form-box1">
+            <input type="text" name="name" class="form-input form-input__name" placeholder="név" />
+            <input type="email" name="email" class="form-input form-input__email" placeholder="e-mail cím" />
+          </div>
+          <div class="form-box2">
+            <textarea
+              name="msg"
+              id="msg"
+              cols="30"
+              rows="10"
+              class="form-input__text-area"
+              placeholder="üzenet"
+            ></textarea>
+            <input type="button" id="send" class="btn-form" value="Beküldés" />
+          </div>
         </form>
       </section>
     </main>
@@ -83,12 +95,20 @@
       <ul class="icons">
         <li>
           <a href="#">
-            <img class="icon-img" alt="github logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+            <img
+              class="icon-img"
+              alt="github logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            />
           </a>
         </li>
         <li>
           <a href="#">
-            <img class="icon-img" alt="linked in logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+            <img
+              class="icon-img"
+              alt="linked in logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+            />
           </a>
         </li>
       </ul>

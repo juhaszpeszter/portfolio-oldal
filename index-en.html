@@ -35,11 +35,11 @@
       </section>
       <section class="about-container" id="about">
         <img src="/assets/about-pic.png" alt="coming soon i promise" />
-        <h2>About Me</h2>
+
         <p class="about-p">
-        Hello, I'm Juhász Eszter, a passionate full-stack web developer, driven by a love for crafting
-          digital experiences. As I embark on the exciting journey of my career, I bring a blend of creativity and
-          technical expertise to every project I undertake. My portfolio showcases my dedication to building innovative,
+          Hello, I'm Juhász Eszter, a passionate full-stack web developer, driven by a love for crafting digital
+          experiences. As I embark on the exciting journey of my career, I bring a blend of creativity and technical
+          expertise to every project I undertake. My portfolio showcases my dedication to building innovative,
           user-centric web solutions that harmonize form and function. Join me as I weave code into captivating digital
           landscapes, one line at a time.
         </p>
@@ -47,8 +47,16 @@
       <section class="skills">
         <h2 class="skills-heading">Programming Launguages and Tools</h2>
         <div class="skills-container">
-          <img class="skills-logo" alt="html5 logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-          <img class="skills-logo" alt="css3 logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+          <img
+            class="skills-logo"
+            alt="html5 logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          />
+          <img
+            class="skills-logo"
+            alt="css3 logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          />
         </div>
       </section>
       <section class="portfolio-container" id="portfolio">
@@ -65,9 +73,12 @@
       <section class="contact-container" id="contact">
         <h2>Contact</h2>
         <form action="https://formspree.io/f/xnqeqkpw" method="post" class="form">
-          <input type="text" name="name" class="form-input" placeholder="name" />
-          <input type="email" name="email" class="form-input" placeholder="e-mail address" />
-          <textarea
+          <div class="form-box1">
+            <input type="text" name="name" class="form-input" placeholder="name" />
+            <input type="email" name="email" class="form-input" placeholder="e-mail address" />
+          </div>
+          <div class="form-box2">
+                      <textarea
             name="msg"
             id="msg"
             cols="30"
@@ -76,6 +87,8 @@
             placeholder="message"
           ></textarea>
           <input type="button" id="send" class="btn-form" value="Send" />
+          </div>
+
         </form>
       </section>
     </main>
@@ -83,12 +96,20 @@
       <ul class="icons">
         <li>
           <a href="#">
-            <img class="icon-img" alt="github logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+            <img
+              class="icon-img"
+              alt="github logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            />
           </a>
         </li>
         <li>
           <a href="#">
-            <img class="icon-img" alt="linked in logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+            <img
+              class="icon-img"
+              alt="linked in logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+            />
           </a>
         </li>
       </ul>
