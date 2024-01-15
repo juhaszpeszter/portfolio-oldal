@@ -339,8 +339,6 @@ img {
   }
 
   .form-input__text-area {
-    text-transform: uppercase;
-    padding: 1rem;
     width: 18rem;
   }
 }
@@ -376,3 +374,61 @@ img {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .nav-item {
+    font-size: 1rem;
+  }
+
+  .banner {
+    height: 260px;
+  }
+
+  .about-pic {
+    height: 270px;
+  }
+
+  .about-p {
+    font-size: 0.9rem;
+  }
+
+  .portfolio-box {
+    display: grid;
+    column-gap: 4rem;
+    row-gap: 2rem;
+  }
+
+  .form-box1 {
+    height: auto;
+  }
+
+  .form-input {
+    font-size: 0.6rem;
+    width: 14rem;
+    height: 1.1rem;
+  }
+
+  .form-box2 {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .form-input__text-area {
+    font-size: 0.6rem;
+  }
+
+  .btn-form {
+    font-size: 0.7rem;
+  }
+
+  .icon-img {
+    width: 30px;
+  }
+
+  .copy {
+    font-size: 0.7rem;
+  }
+}
