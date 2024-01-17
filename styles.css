@@ -405,6 +405,10 @@ img {
     row-gap: 2rem;
   }
 
+  .form {
+    height: 15rem;
+  }
+
   .form-box1 {
     height: auto;
   }
@@ -439,6 +443,18 @@ img {
 }
 
 @media screen and (min-width: 1400px) {
+  .about-container {
+    gap: 4rem;
+  }
+
+  .about-pic {
+    height: auto;
+  }
+
+  .about-p {
+    width: 800px;
+  }
+
   .form-box1 {
     flex-direction: row;
     gap: 3rem;
