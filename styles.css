@@ -153,11 +153,16 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(/assets/about-bg-big.png);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45)), url(/assets/about-bg-big.png);
   padding: 4rem 1rem;
   color: var(--body-bgc);
   gap: 2rem;
 }
+
+  .about-p {
+    line-height: 2.2rem;
+    padding: 1rem;
+  } 
 
 /*---SKILLS---*/
 
@@ -335,6 +340,7 @@ img {
 
   .about-p {
     font-size: 1.2rem;
+    text-align: center;
   }
 
   .portfolio-box {
@@ -355,6 +361,8 @@ img {
 
   .about-p {
     font-size: 1.1rem;
+    text-align: left;
+    padding: 0;
   }
 
   .portfolio-box {
@@ -393,10 +401,6 @@ img {
 
   .about-pic {
     height: 270px;
-  }
-
-  .about-p {
-    font-size: 0.9rem;
   }
 
   .portfolio-box {
@@ -452,6 +456,7 @@ img {
   }
 
   .about-p {
+    line-height: 2.4rem;
     width: 800px;
   }
 
