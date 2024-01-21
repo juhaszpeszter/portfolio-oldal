@@ -231,59 +231,59 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  font-size: 1.1rem;
+}
+
+.contact-h2 {
+  display: block;
+  text-align: center;
 }
 
 .form {
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   background-image: url(/assets/contact-box-bg-v2.png);
-  background-size: contain;
+  height: auto;
+  padding: 1rem;
   border-radius: 5px;
 }
 
-.form-box1 {
+.form-group {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+}
+
+.form-label {
+  color: var(--body-bgc);
+  font-weight: 800;
+  margin-bottom: 0.5rem;
 }
 
 .form-input {
-  text-transform: uppercase;
   width: 16rem;
   height: 2rem;
   padding: 1rem;
+  border-radius: 5px;
 }
 
-.form-box2 {
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.form-input__text-area {
-  text-transform: uppercase;
-  padding: 1rem;
+.form-input-textarea {
   width: 16rem;
+  border-radius: 5px;
 }
 
 .btn-form {
-  margin-top: 1rem;
   background-color: var(--header-menu-bgc-hover);
   color: var(--dark-blue);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 0.9rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-
 /*---FOOTER---*/
 
 .socialmedia {
@@ -347,7 +347,7 @@ img {
     text-align: center;
   }
 
-  .form-input__text-area {
+  .form-input-textarea {
     width: 18rem;
   }
 }
@@ -367,17 +367,6 @@ img {
   .portfolio-box {
     display: grid;
     grid-template-columns: auto auto;
-  }
-
-  .form {
-    flex-direction: row;
-    gap: 2rem;
-  }
-
-  .form-box1 {
-    height: 190px;
-    align-items: flex-start;
-    justify-content: flex-start;
   }
 
   .socialmedia {
@@ -403,31 +392,8 @@ img {
   }
 
   .form {
-    height: 15rem;
-  }
-
-  .form-box1 {
-    height: auto;
-  }
-
-  .form-input {
-    font-size: 0.6rem;
-    width: 14rem;
-    height: 1.1rem;
-  }
-
-  .form-box2 {
-    flex-direction: row;
-    gap: 3rem;
-    padding: 0;
-  }
-
-  .form-input__text-area {
-    font-size: 0.6rem;
-  }
-
-  .btn-form {
-    font-size: 0.7rem;
+    padding: 2rem;
+    gap: 2rem;
   }
 
   .icon-img {
@@ -464,8 +430,4 @@ img {
     width: 800px;
   }
 
-  .form-box1 {
-    flex-direction: row;
-    gap: 3rem;
-  }
 }
