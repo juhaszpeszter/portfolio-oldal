@@ -137,13 +137,17 @@ img {
 .btn-contact {
   margin-top: 1rem;
   background-color: var(--pastel-grey-purple);
-  color: var(--header-menu-bgc-hover);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.btn-contact-tag {
+  text-decoration: none;
+  color: var(--header-menu-bgc-hover);
 }
 
 /*---ABOUT CONTAINER---*/
@@ -363,7 +367,6 @@ img {
   .portfolio-box {
     display: grid;
     grid-template-columns: auto auto;
-    
   }
 
   .form {
@@ -444,7 +447,6 @@ img {
 }
 
 @media screen and (min-width: 1400px) {
-
   .portfolio-box {
     gap: 5rem;
   }
