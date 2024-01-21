@@ -159,10 +159,10 @@ img {
   gap: 2rem;
 }
 
-  .about-p {
-    line-height: 2.2rem;
-    padding: 1rem;
-  } 
+.about-p {
+  line-height: 2.2rem;
+  padding: 1rem;
+}
 
 /*---SKILLS---*/
 
@@ -208,12 +208,12 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 
 .portfolio-item {
-  width: 200px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   border: 2px solid var(--header-menu-bgc);
   padding: 1rem;
   background-color: var(--pastel-peach);
@@ -343,11 +343,6 @@ img {
     text-align: center;
   }
 
-  .portfolio-box {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-
   .form-input__text-area {
     width: 18rem;
   }
@@ -367,7 +362,8 @@ img {
 
   .portfolio-box {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    
   }
 
   .form {
@@ -401,12 +397,6 @@ img {
 
   .about-pic {
     height: 270px;
-  }
-
-  .portfolio-box {
-    display: grid;
-    column-gap: 4rem;
-    row-gap: 2rem;
   }
 
   .form {
@@ -446,7 +436,19 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
 @media screen and (min-width: 1400px) {
+
+  .portfolio-box {
+    gap: 5rem;
+  }
+
   .about-container {
     gap: 4rem;
   }
