@@ -131,6 +131,12 @@ img {
   color: var(--dark-blue);
 }
 
+.language-flag {
+  height: 1.8rem;
+  width: auto;
+  padding-bottom: 0.3rem;
+}
+
 /*--BANNER---*/
 
 .banner {
@@ -389,6 +395,10 @@ img {
 
   .nav-item {
     font-size: 1rem;
+  }
+
+  .language-flag {
+    padding-bottom: 0.5rem;
   }
 
   .banner {
