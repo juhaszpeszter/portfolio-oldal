@@ -49,6 +49,14 @@ img {
 
 /*---HEADER MENÜ---*/
 
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--header-menu-bgc);
+}
+
 #menu-toggle {
   opacity: 0;
 }
@@ -429,5 +437,4 @@ img {
     line-height: 2.4rem;
     width: 800px;
   }
-
 }
