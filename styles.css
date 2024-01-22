@@ -348,10 +348,6 @@ img {
     height: 100%;
   }
 
-  .banner {
-    height: 350px;
-  }
-
   .about-container {
     padding: 4rem;
   }
@@ -402,7 +398,7 @@ img {
   }
 
   .banner {
-    height: 260px;
+    height: 400px;
   }
 
   .about-pic {
